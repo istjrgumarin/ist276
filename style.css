@@ -34,16 +34,16 @@
 }
 
 .blinking{
-    animation:blinkingTextmint 1.2s infinite;
+    animation:blinkingText 1.2s infinite;
 }
 @keyframes blinkingText{
     0%{     color: #000;    }
     100%{   color: #FFFF66;    }
 }
 
-@keyframes blinkingTextmint{
+@keyframes blinkingTextred{
     0%{     color: #000;    }
-    100%{   color: #AAF0D1;    }
+    100%{   color: crimson;    }
 }
 
 @keyframes example {
@@ -55,29 +55,18 @@ hr {
 	border-top: 1px solid red;
 }
 
-#idex {
-  color: #FF355E;
-  font-weight:bold;
-}
-
-
-.classex {
-  color: #AAF0D1;
-  font-weight:bold;
-}
-
 a {
-	color: hotpink
+  color: hotpink;
 }
 
 body {
   background-color: darkslategray;
-  background-image: 
-  url('nightcity.gif');
+  background-image:
+  url('retrowavemove.gif');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size:2000px 4000px;
-  
+  background-size:1920px 4000px;
+
 }
 
 header {
@@ -98,14 +87,14 @@ h3 {
   font-size:50px;
   /*background-image: url('nightcity.gif');
   background-repeat: no-repeat;*/
-  
+
 }
 
 h4 {
   color: crimson;
   text-align: center;
   font-family: 'Blanka-Regular';
-  font-size:50px;
+  font-size:60px;
   /*background-image: url('nightcity.gif');
   background-repeat: no-repeat;*/
   /*animation-name: blinkingText;
@@ -124,28 +113,14 @@ h2 {
   color: crimson;
   text-align: center;
   font-family: 'Cyberpunk';
-  font-size:50px;
+  font-size:100px;
   animation-name: blinkingTextred;
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 
 
-h5 {
-  color: #FF355E;
-  text-align: center;
-  font-family: 'Elianto-Regular';
-  font-size:30px;
-}
 
-/*
-blockquote {
-  color: violet;
-  text-align: center;
-  font-family: verdana;
-  font-size:30px;
-}
-*/
 p {
   color: #FFFF66;
   font-family: verdana;
@@ -154,11 +129,11 @@ p {
 }
 
 div {
-  color: cyan;
+  color: Syan;
   text-align: center;
   font-family: Anurati-Regular;
   font-size:40px;
-  
+
 }
 
 section {
